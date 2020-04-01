@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Originalcode: Nathan Harrenstein Ported by: Maximilian Almhofer</Authors>
+    <Company>NAudio</Company>
+    <Description>NAudio.Flac extends NAudio written by Mark Heath &amp; Contributors 
+This is a port to .NET Core of NAudio.Flac which was written for .NET Framework</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="NAudio">
+      <HintPath>..\..\ref\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.1\System.Drawing.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
