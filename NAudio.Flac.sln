@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NAudio.Flac", "source\NAudio.Flac\NAudio.Flac.csproj", "{BAE3ED8D-A91C-427B-AF9B-33C70DDE08CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NAudio.Flac", "src\NAudio.Flac\NAudio.Flac.csproj", "{BAE3ED8D-A91C-427B-AF9B-33C70DDE08CD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NAudio", "source\NAudio\NAudio.csproj", "{A755DF30-CDA4-4678-9EA6-9A919D26186D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NAudio", "src\NAudio\NAudio.csproj", "{A755DF30-CDA4-4678-9EA6-9A919D26186D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
