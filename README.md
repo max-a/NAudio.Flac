@@ -1,2 +1,2 @@
 # NAudio.Flac
-noetcore port of NAudio.Flac library
+netcore port of [NAudio.Flac library!](https://github.com/nharren/NAudio.Flac)
